@@ -83,13 +83,16 @@ func main() {
 					log.Println(err)
 					return
 				}
+				text := "@" + n.Status.Account.Acct + " " + ret.Utt
 				_, err = m.PostStatus(context.Background(), &mastodon.Toot{
-					Status:      "@" + n.Status.Account.Acct + " " + ret.Utt,
+					Status:      text,
 					InReplyToID: n.Status.ID,
 					Visibility:  "unlisted",
 				})
 				if err != nil {
 					log.Println(err)
+				} else {
+					log.Println(text)
 				}
 			})
 		}
