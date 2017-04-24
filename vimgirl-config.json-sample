@@ -1,0 +1,23 @@
+{
+  "mastodon": {
+    "Server": "https://mstdn.jp",
+    "ClientID": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "ClientSecret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "AccessToken": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  },
+  "apikey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "vimgirl": {
+    "nickname": "vimgirl",
+    "nickname_y": "びむがーる",
+    "sex": "女",
+    "bloodtype": "A",
+    "birthdateY": 2000,
+    "birthdateM": 9,
+    "birthdateD": 9,
+    "age": 15,
+    "constellations": "魚座",
+    "place": "東京",
+    "mode": "dialog",
+    "t": 20
+  }
+}
